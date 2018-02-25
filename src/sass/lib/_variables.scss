@@ -1,0 +1,9 @@
+@include font-face('Museocyrl100', "../fonts/Museocyrl100" ,null, null, ttf eot woff svg);
+@include font-face('Museocyrl300', "../fonts/Museocyrl300" ,null, null, ttf eot woff svg);
+@include font-face('MuseoCyrl500', "../fonts/MuseoCyrl500" ,null, null, ttf eot woff svg);
+@include font-face('MuseoCyrl500Italic', "../fonts/MuseoCyrl500Italic" ,null, null, ttf eot woff svg);
+@include font-face('MuseoCyrl700', "../fonts/MuseoCyrl700" ,null, null, ttf eot woff svg);
+
+$blueLight: #5ea6cc;
+$blue: #1a80b6;
+$blueDark: #05529c;
