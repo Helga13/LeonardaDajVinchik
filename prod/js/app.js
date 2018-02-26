@@ -4,6 +4,7 @@ $(document).ready(function () {
   
   // sliders
   $('.main_slider').slick({
+    dots: true,
     arrows: true,
 //    infinite: true,
 //    autoplay: true,
@@ -19,6 +20,10 @@ $(document).ready(function () {
       });
     });
   });
+  
+  // blur filter
+  
+  
   
   
 });

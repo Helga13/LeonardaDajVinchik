@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+//= includes/head.html
+
+<body>
+//= includes/header.html
+<div class="breadcrumbs_block">
+  <div class="wrap">
+    <ul class="breadcrumbs">
+      <li><a href="/">Главная</a></li>
+      <li><div class="title h1">Контакты</div></li>
+    </ul>
+  </div>
+</div>
+<main> 
+  <div class="map_block">
+    <div class="wrap">
+      <div id="map"></div>
+      <div class="map_contact">
+        <div class="title">Будем рады сотрудничать</div>
+        <p>Str. Vicinale Contrada Forchetta ZI<br>
+        70033 Corato (BA) ITALY<br>
+        Tel +39 080 8728856<br>
+        Fax +39 080 8721891<br>
+        info@fas-spa.it<br><br>
+        Partita Iva IT02756080723</p>  
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="feedback_form">
+      <form action="/">
+        <div class="h3">Напишите нам</div>
+        <div class="field_block">
+          <div class="field">
+            <label for="organization">Название организации <span class="required">*</span></label>
+            <input type="text" id="organization" required>
+          </div>
+          <div class="field">
+            <label for="mail">Электронная почта <span class="required">*</span></label>
+            <input type="email" id="mail" required>
+          </div>
+        </div>
+        <div class="field full">
+          <label for="message">Текст собщения <span class="required">*</span></label>
+          <textarea name="message" id="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Отправить письмо</button>
+      </form>
+    </div>
+  </div>
+</main>
+//= includes/footer.html
+//= includes/scripts.html
+</body>
+</html>

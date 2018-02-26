@@ -10,33 +10,33 @@
   At the bottom of this section, we provide information about the spritesheet itself
   $spritesheet: width height image $spritesheet-sprites
   */
-$phone_call-name: 'phone_call'
-$phone_call-x: 0px
-$phone_call-y: 0px
-$phone_call-offset-x: 0px
-$phone_call-offset-y: 0px
-$phone_call-width: 18px
-$phone_call-height: 18px
-$phone_call-total-width: 33px
-$phone_call-total-height: 18px
-$phone_call-image: 'sprite.png'
-$phone_call: 0px 0px 0px 0px 18px 18px 33px 18px 'sprite.png' 'phone_call'
-$star-name: 'star'
-$star-x: 18px
-$star-y: 0px
-$star-offset-x: -18px
-$star-offset-y: 0px
-$star-width: 15px
-$star-height: 15px
-$star-total-width: 33px
-$star-total-height: 18px
-$star-image: 'sprite.png'
-$star: 18px 0px -18px 0px 15px 15px 33px 18px 'sprite.png' 'star'
-$spritesheet-width: 33px
-$spritesheet-height: 18px
+$left_quote-name: 'left_quote'
+$left_quote-x: 0px
+$left_quote-y: 0px
+$left_quote-offset-x: 0px
+$left_quote-offset-y: 0px
+$left_quote-width: 70px
+$left_quote-height: 46px
+$left_quote-total-width: 139px
+$left_quote-total-height: 46px
+$left_quote-image: 'sprite.png'
+$left_quote: 0px 0px 0px 0px 70px 46px 139px 46px 'sprite.png' 'left_quote'
+$right_quote-name: 'right_quote'
+$right_quote-x: 70px
+$right_quote-y: 0px
+$right_quote-offset-x: -70px
+$right_quote-offset-y: 0px
+$right_quote-width: 69px
+$right_quote-height: 45px
+$right_quote-total-width: 139px
+$right_quote-total-height: 46px
+$right_quote-image: 'sprite.png'
+$right_quote: 70px 0px -70px 0px 69px 45px 139px 46px 'sprite.png' 'right_quote'
+$spritesheet-width: 139px
+$spritesheet-height: 46px
 $spritesheet-image: 'sprite.png'
-$spritesheet-sprites: $phone_call $star
-$spritesheet: 33px 18px 'sprite.png' $spritesheet-sprites
+$spritesheet-sprites: $left_quote $right_quote
+$spritesheet: 139px 46px 'sprite.png' $spritesheet-sprites
 
 /*
   The provided mixins are intended to be used with the array-like variables
