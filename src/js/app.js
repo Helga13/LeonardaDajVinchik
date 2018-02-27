@@ -6,15 +6,29 @@ $(document).ready(function () {
   $('.main_slider').slick({
     dots: true,
     arrows: true,
-//    infinite: true,
-//    autoplay: true,
     autoplaySpeed: 4000    
   });
   
   $('.sertificate_slider').slick({
     arrows: true, 
     slidesToShow: 4,
-    slidesToScroll: 4
+    slidesToScroll: 4,
+    responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+      }
+    },
+    {
+      breakpoint: 481,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      }
+    }
+  ]
   });
   
   // tabs

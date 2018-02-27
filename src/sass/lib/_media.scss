@@ -1,23 +1,112 @@
-@media only screen and (max-width : 1366px) {
+@media only screen and (max-width : 1023px) {
   
-  
-  
-  
+  .wrap {
+    max-width: 992px;
+  }
+ 
 }
 
 @media only screen and (max-width : 992px) {
   
+  .wrap {
+    max-width: 767px;
+  }
   
-
+  header{
+    position: relative;
+    padding: 8px 0;
+  }
+  
+  .header_contacts{
+    float: none;
+    clear: both;
+    text-align: right;
+    .phone{
+      margin: 0 0 0 30px;
+    }
+  }
+  .logo_block{
+    position: absolute;
+    top: 28px;
+  }
+  nav a.current:before{
+    top: -8px;
+  }
+  
 }
 
 @media only screen and (max-width : 767px) {
   
+  .wrap {
+    max-width: 600px;
+  }
+  .slider_item{
+    height: 360px;
+  }
+  .slider_text{
+    left: 80px;
+  }
+  .main_tabs{
+    padding-top: 46px;
+  }
+  .production_item{
+    width: 50%;
+  }
+  .breadcrumbs li:last-child{
+    clear: both;
+  }
+  .breadcrumbs li .title{
+    width: 100%;
+  }
+  .category_description .img_block{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+    float: none;
+  }
+  
+  .text_block.text_about .text_col{
+    overflow: initial;
+  }
   
 }
 
 @media only screen and (max-width : 600px) {
   
+  .quote_block .quote_wrap:before{
+    left: 10px;
+  }
+  .quote_block .quote_wrap:after{
+    right: 10px;
+  }
+  nav li{
+    margin-left: 20px;
+  }
+  .header_contacts .phone{
+    margin: 0 0 0 20px;
+  }
+  .logo_block{
+    top: 42px;
+  }
+  .slider_text p{
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .slider_text{
+    left: 70px;
+  }
+  .quote_block .quote_wrap{
+    padding: 0 64px;
+  }
+  .quote_block .quote_wrap:after, 
+  .quote_block .quote_wrap:before{
+    width: 50px;
+    height: 30px;
+    background-size: 50px 30px;
+  }
+  .quote_block .bottom{
+    height: 430px;
+  }
  
 }
 
