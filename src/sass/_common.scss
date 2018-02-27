@@ -859,3 +859,20 @@ main{
   background: #666;
   opacity: .9;
 }
+
+.text_block.text_about{
+  padding-bottom: 80px;
+  @include clearfix;
+  .left_col{
+    width: 35.48%;
+    margin-right: 36px;
+    float: left;
+    line-height: 0;
+    img{
+      margin: 0;
+    }
+  }
+  .text_col{
+    overflow: hidden;
+  }
+}
