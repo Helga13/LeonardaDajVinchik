@@ -11,6 +11,12 @@ $(document).ready(function () {
     autoplaySpeed: 4000    
   });
   
+  $('.sertificate_slider').slick({
+    arrows: true, 
+    slidesToShow: 4,
+    slidesToScroll: 4
+  });
+  
   // tabs
   $('.tabs_block').each(function () {
     $(this).find('.tab').each(function (i) {
@@ -23,7 +29,9 @@ $(document).ready(function () {
   
   // blur filter
   
-  
-  
+  // lightbox
+  var lightbox = $('.sertificate_slider .item_inner').simpleLightbox({
+    showCounter: false
+  });
   
 });

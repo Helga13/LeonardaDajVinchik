@@ -810,3 +810,52 @@ main{
     margin-bottom: 14px;
   }
 }
+
+.sertificate_slider{
+  margin: 0 -17px;
+  .slick-prev{
+    left: 17px;
+  }
+  .slick-next{
+    right: 17px;
+  }
+  .item{
+    padding: 17px;
+  }
+  img{
+    width: 100%;
+  }
+  .item_inner{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    &:after{
+      content: '';
+      position: absolute;
+      background: rgba(26,128,182,.7) url('../img/icons/search.svg') center no-repeat;
+      background-size: 20px;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      color: #fff;
+      opacity: 0;
+      transition: opacity .3s ease;
+    }
+    &:hover:after,
+    &:focus:after,
+    &:active:after{
+      opacity: 1;
+    }
+  }
+}
+
+.fas .text_block{
+  padding-bottom: 14px;
+}
+
+.sl-overlay{
+  background: #666;
+  opacity: .9;
+}
