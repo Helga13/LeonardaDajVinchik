@@ -27,11 +27,28 @@ $(document).ready(function () {
     });
   });
   
-  // blur filter
-  
   // lightbox
   var lightbox = $('.sertificate_slider .item_inner').simpleLightbox({
     showCounter: false
+  });
+  
+  // popup
+  $('.js-popup').click(function (e) {
+    e.preventDefault();
+    $('#feedback_form').fadeIn(300);
+    $('body').css('overflow', 'hidden');
+  });
+  $('.popup_overlay').click(function (e) {
+    $(this).fadeOut(100);
+    $('body').css('overflow', 'auto');
+  });
+  $('.popup_close').click(function (e) {
+    e.preventDefault();
+    $(this).parents('.popup_overlay').fadeOut(100);
+    $('body').css('overflow', 'auto');
+  });
+  $('.popup_content').click(function (e) {
+    e.stopPropagation();
   });
   
 });

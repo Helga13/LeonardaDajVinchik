@@ -463,6 +463,53 @@ footer{
   }
 }
 
+// popup
+
+.popup_overlay {
+  display: none;
+  text-align: center;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(102, 102, 102, .8);
+  z-index: 9999;
+  .popup_content {
+    padding: 50px 30px 40px;
+    margin: 40px auto;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 500px;
+    background-color: #f8f8f8;
+    text-align: left;
+    textarea {
+      height: 100px;
+    }
+    input {
+      width: 100%;
+      max-width: 290px;
+    }
+  }
+  .popup_close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    z-index: 1;
+    img {
+      width: 100%;
+    }
+  }
+  .h3{
+    padding-bottom: 18px;
+  }
+}
+
 // main
 
 main{
@@ -813,6 +860,7 @@ main{
 
 .sertificate_slider{
   margin: 0 -17px;
+  padding-bottom: 63px;
   .slick-prev{
     left: 17px;
   }

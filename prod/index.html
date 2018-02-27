@@ -142,7 +142,7 @@
         Fax +39 080 8721891<br>
         info@fas-spa.it<br><br>
         Partita Iva IT02756080723</p>
-        <a href="#" class="btn">Назначить встречу</a>  
+        <a href="#" class="btn js-popup">Назначить встречу</a>  
       </div>
     </div>
   </div>
@@ -153,6 +153,29 @@
     <a href="https://skyweb.by" class="skyweb">Сайт разработан <span>skyweb.by</span></a>
   </div>
 </footer>
+<div class="popup_overlay" id="feedback_form">
+  <div class="popup_content">
+    <a href="#" class="popup_close"><img src="img/icons/cancel.svg" alt="Закрыть"></a>
+    <form action="/">
+      <div class="h3">Напишите нам</div>
+      <div class="field_block">
+        <div class="field">
+          <label for="organization">Название организации <span class="required">*</span></label>
+          <input type="text" id="organization" required>
+        </div>
+        <div class="field">
+          <label for="mail">Электронная почта <span class="required">*</span></label>
+          <input type="email" id="mail" required>
+        </div>
+      </div>
+      <div class="field full">
+        <label for="message">Текст собщения <span class="required">*</span></label>
+        <textarea name="message" id="message" required></textarea>
+      </div>
+      <button type="submit" class="btn">Отправить письмо</button>
+    </form>
+  </div>
+</div>
 <script src="js/common.js"></script>
 </body>
 </html>
