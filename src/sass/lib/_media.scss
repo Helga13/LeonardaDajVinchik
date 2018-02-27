@@ -101,16 +101,107 @@
   .quote_block .quote_wrap:after, 
   .quote_block .quote_wrap:before{
     width: 50px;
-    height: 30px;
-    background-size: 50px 30px;
+    height: 28px;
+    background-size: 50px 28px;
   }
   .quote_block .bottom{
     height: 430px;
+  }
+  .sertificate_slider {
+    margin: 0 -10px 63px;
+  }
+  .sertificate_slider .item {
+    padding: 10px;
   }
  
 }
 
 @media only screen and (max-width : 480px) {
   
-  
+  header{
+    padding-top: 0;
+  }
+  nav li{
+    font-size: 17px;
+    margin-left: 14px;
+    &:first-child{
+      margin-left: 0;
+    }
+  }
+  nav a{
+    padding: 10px 0;
+  }
+  nav a.current:before {
+    top: 0;
+  }
+  .slick-prev,
+  .slick-next{
+    width: 44px;
+    height: 44px;
+  }
+  .slider_text{
+    left: 50px;
+  }
+  .slider_text p{
+    padding: 0 14px;
+    margin: 5px 0;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .h1, h1{
+    font-size: 30px;
+  }
+  .h1, .h2, h1, h2{
+    line-height: 38px;
+  }
+  .quote_block .quote{
+    padding: 30px 0;
+  }
+  .quote_block .quote_wrap:after, .quote_block .quote_wrap:before {
+    width: 40px;
+    height: 24px;
+    background-size: 40px 24px;
+  }
+  .quote_block .quote_wrap:before{
+    left: 6px;
+  }
+  .quote_block .quote_wrap:after{
+    right: 6px;
+  }
+  .quote_block .quote_wrap{
+    padding: 0 50px;
+  }
+  .quote_block .bottom {
+    height: 480px;
+  }
+  .header_contacts .phone{
+    padding: 10px 0 10px 30px;
+  }
+  .logo_block {
+    top: 52px;
+  }
+  .header_contacts {
+    float: right;
+    clear: both;
+    text-align: right;
+    max-width: 164px;
+  }
+  .breadcrumbs li .title{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .breadcrumbs_block{
+    padding: 20px 0;
+  }
+  .feedback_form .field_block{
+    margin: 0;
+    .field{
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .production_page {
+    padding: 64px 0 80px;
+  }
 }
